@@ -262,5 +262,10 @@ a{
   
 }
 .imgbanner {
-  align-items: center;
+ display: flex;
+ justify-content: center;
+}
+.imgbannermorado2 {
+  padding-left: 300px;
+
 }
