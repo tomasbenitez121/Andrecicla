@@ -314,3 +314,7 @@ a{
   width: auto;
   height: 320px;
 }
+.amano {
+  display: flex;
+  justify-content: center;
+}
