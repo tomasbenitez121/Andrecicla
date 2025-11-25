@@ -231,7 +231,13 @@ a{
 
 .banner {
       background-image: url('../img/fotobanner.png');
+      padding: 150px;
+      background-repeat: no-repeat;
+      background-position: center;
 }
 .h2banner {
   text-align: center;
+}
+.bannermorado {
+  background-color: #75427F;
 }
