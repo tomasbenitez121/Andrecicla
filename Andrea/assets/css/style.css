@@ -230,5 +230,8 @@ a{
 }
 
 .banner {
-      background-image: url('../img/fondopapel.png');
+      background-image: url('../img/fotobanner.png');
+}
+.h2banner {
+  text-align: center;
 }
