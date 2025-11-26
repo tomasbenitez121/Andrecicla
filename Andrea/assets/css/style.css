@@ -317,4 +317,32 @@ a{
 .amano {
 text-align: center;
   justify-content: center;
+  padding: 40px;
+}
+
+.btn-tienda{
+      /* Dimensiones y padding */
+    padding: 15px 35px;
+    margin-top: 25px;
+    /* Apariencia */
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #4b4b4b;
+    /* Colores del botón */
+    background-color: #e0d0eb; /* Fondo lila claro */
+    /* Borde lila más oscuro */
+    border: 1px solid #a37ec7;
+    /* Bordes redondeados sutiles */
+    border-radius: 5px;
+    /* Sombra para darle profundidad, como se ve en la imagen */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* El borde exterior sutil visto en tu imagen */
+    outline: 5px solid rgba(163, 126, 199, 0.3); /* Un halo morado suave */
+}
+
+hr{
+  background-color: #75427F;
+  height: 3px;
 }
