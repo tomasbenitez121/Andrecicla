@@ -315,6 +315,6 @@ a{
   height: 320px;
 }
 .amano {
-  display: flex;
+text-align: center;
   justify-content: center;
 }
