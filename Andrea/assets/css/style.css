@@ -487,11 +487,13 @@ a{
  display: flex;
  justify-content: center;
 }
+
+
 .imgbannermorado2 {
-  padding-left: 200px;
-  padding-top: 30px;
-  width: auto;
-  height: 320px;
+ padding: 20px;
+  width: 250px;
+  height: 250px;
+  
 }
 .amano {
 text-align: center;
@@ -798,3 +800,4 @@ hr{
 .carousel-btn:hover {
     background: #9d74e1;
 }
+
