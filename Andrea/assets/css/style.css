@@ -90,21 +90,21 @@ body {
     right: 0;
 }
 
-.btn1-position {
+.slide1 {
   bottom: 170px;      
   left: 20%;        
   transform: translateX(-47%); 
 }
 
 
-.btn2-position {
+.slide2 {
   bottom: 100px;    
   left: 50%;         
-  transform: translateX(-122%);
+  transform: translateX(-60%);
 }
 
 
-.btn3-position {
+.slide3 {
   bottom: 220px;      
   right: 20%;       
   transform: translateX(-38%);
@@ -120,16 +120,35 @@ body {
   border-radius: 8px;
   cursor: pointer;
   transition: 0.3s;
-    box-shadow: 0px 1px 10px 3px rgba(117, 66, 127, 0.5); /* color semitransparente */
+    box-shadow: 0px 1px 10px 3px rgba(117, 66, 127, 0.5); 
 }
 
 .btn-carrusel:hover {
-  background-color: #501d77;
+  background-color: #75427F;
   color: #ffffff;;
   transform: scale(1.05);
   box-shadow: 0px 1px 10px 3px rgba(39, 22, 42, 0.5); 
 }
 
+
+.carruselprincipal .carousel-item {
+  position: relative;
+}
+
+.carruselprincipal .carousel-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+}
+
+.tituloprincipal {
+  color: #000000;
+  font-size: 2.5rem;
+
+}
 
 
 
@@ -620,13 +639,8 @@ hr{
 }
 
 .margenMorado img {
-<<<<<<< Updated upstream
     width:auto;
     padding: 30px;
-=======
-    margin: 20px;
-    width: 180px;
->>>>>>> Stashed changes
 }
 
 
