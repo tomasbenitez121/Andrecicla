@@ -91,23 +91,26 @@ body {
 }
 
 .slide1 {
-  bottom: 170px;      
+  bottom: 230px;      
   left: 20%;        
   transform: translateX(-40%); 
 }
 
 
 .slide2 {
-  bottom: 100px;    
+  bottom: 250px;    
   left: 50%;         
   transform: translateX(-270%);
 }
 
 
 .slide3 {
-  bottom: 220px;      
+  bottom: 230px;      
   right: 20%;       
   transform: translateX(-450%);
+}
+.lititulo2 {
+    padding-left: 50px;
 }
 
 /* Estilo general de todos los botones */
