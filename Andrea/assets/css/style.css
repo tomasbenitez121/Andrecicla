@@ -300,22 +300,11 @@ position: absolute;
     color: #75427F;
     border-radius: 11px;
 }
-.card-link {
-    position: relative;
-    display: block;
-    width: 100%;
-    border-radius: 15px;
-    padding: 20px;
-    text-decoration: none;
-}
-
-.card-link:hover .card-content {
-    transform: scale(1.1);
+.card-image:hover  {
     box-shadow: 0 0 12px rgba(117, 66, 127, 0.7);
 }
 
 .card-content {
-    background-color: #ffffff;
     text-align: center;
     border-radius: 11px;
     padding-bottom: 15px;
@@ -329,6 +318,11 @@ position: absolute;
 }
 .card-image{
   border-radius: 11px;
+  position: relative;
+    display: block;
+    width: 100%;
+    border-radius: 15px;
+    text-decoration: none;
 }
 
 .parrafo-single {
@@ -820,7 +814,7 @@ hr{
 /* ------------------------------------carrusel------------------------------------ */
 
 .carousel-wrapper {
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -830,7 +824,6 @@ hr{
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
-    gap: 20px;
     padding: 10px;
     scrollbar-width: none;  
 }
@@ -848,7 +841,7 @@ hr{
     color: white;
     border: none;
     font-size: 55px;
-    width: 210px;
+    width: 100px;
     height: 100px;
     border-radius: 20%;
     cursor: pointer;
