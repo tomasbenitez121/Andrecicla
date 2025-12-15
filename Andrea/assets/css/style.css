@@ -33,11 +33,6 @@ body {
     display: none; 
 }
 
-.card-item {
-    /* Mantiene los elementos en fila y les da el espacio necesario */
-    flex-shrink: 0; 
-    margin-right: 20px; /* Espacio entre productos */
-}
 
 
 
@@ -163,7 +158,26 @@ position: absolute;
   box-shadow: 0px 1px 10px 3px rgba(39, 22, 42, 0.5); 
 }
 
+.btn-irtienda{
+    position: relative;
+  background-color: #E6D9EE;
+  color: #75427F;
+  border: none;
+  padding: 12px 25px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+    box-shadow: 0px 1px 10px 3px rgba(117, 66, 127, 0.5); 
+    bottom: 50px;
+}
 
+.btn-irtienda:hover{
+     background-color: #75427F;
+  color: #ffffff;;
+
+  box-shadow: 0px 1px 10px 3px rgba(39, 22, 42, 0.5); 
+}
 .carruselprincipal .carousel-item {
   position: relative;
   
