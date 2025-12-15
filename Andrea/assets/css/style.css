@@ -184,7 +184,13 @@ position: absolute;
 }
 
 
-
+.purple-dividerr{
+     border: solid 1px #75427F;
+    height: 2px;
+    margin: auto;
+    background-color: #75427F;
+    border-radius: 50px;
+}
 
 
 
