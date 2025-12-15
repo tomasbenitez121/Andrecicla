@@ -140,15 +140,7 @@ body {
 .lititulo2 {
     padding-left: 50px;
 }
-.slide1:hover {
-      transform: translateX(-40%) scale(1.05);
-}
-.slide2:hover {
-  transform: translateX(-40%) scale(1.05);
-}
-.slide3:hover {
-      transform: translateX(-40%) scale(1.05);
-}
+
 
 /* Estilo general de todos los botones */
 .btn-carrusel {
